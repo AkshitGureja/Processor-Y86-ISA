@@ -1,0 +1,150 @@
+$date
+	Thu Mar 10 03:43:42 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_pc_update_seq $end
+$var wire 64 ! PC_new [63:0] $end
+$var reg 1 " cnd $end
+$var reg 4 # icode [3:0] $end
+$var reg 64 $ valC [63:0] $end
+$var reg 64 % valM [63:0] $end
+$var reg 64 & valP [63:0] $end
+$scope module PC1 $end
+$var wire 1 ' clk $end
+$var wire 1 " cnd $end
+$var wire 4 ( icode [3:0] $end
+$var wire 64 ) valC [63:0] $end
+$var wire 64 * valM [63:0] $end
+$var wire 64 + valP [63:0] $end
+$var reg 64 , PC_new [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 ,
+b1 +
+b1010000 *
+b10 )
+b1 (
+z'
+b1 &
+b1010000 %
+b10 $
+b1 #
+0"
+b1 !
+$end
+#5
+b11 !
+b11 ,
+b11 &
+b11 +
+b110 #
+b110 (
+#10
+b101 !
+b101 ,
+b101 &
+b101 +
+b10 #
+b10 (
+#15
+b1111 !
+b1111 ,
+b1111 &
+b1111 +
+b11 #
+b11 (
+#20
+b11001 !
+b11001 ,
+b11001 &
+b11001 +
+b100 #
+b100 (
+#25
+b100011 !
+b100011 ,
+b100011 &
+b100011 +
+b101 #
+b101 (
+#30
+b100101 !
+b100101 ,
+b100101 &
+b100101 +
+b110 #
+b110 (
+#35
+b101110 !
+b101110 ,
+b101110 &
+b101110 +
+b1100100 $
+b1100100 )
+b111 #
+b111 (
+#40
+b110000 !
+b110000 ,
+b110000 &
+b110000 +
+b110 #
+b110 (
+#45
+b10010110 !
+b10010110 ,
+b111001 &
+b111001 +
+b10010110 $
+b10010110 )
+1"
+b111 #
+b111 (
+#50
+b1100100 !
+b1100100 ,
+b1100100 $
+b1100100 )
+b10011111 &
+b10011111 +
+b1000 #
+b1000 (
+#55
+b10011111 !
+b10011111 ,
+b1100101 &
+b1100101 +
+b1001 #
+b1001 (
+b10011111 %
+b10011111 *
+#60
+b10100001 !
+b10100001 ,
+b10100001 &
+b10100001 +
+b1010 #
+b1010 (
+#65
+b10100011 !
+b10100011 ,
+b10100011 &
+b10100011 +
+b1011 #
+b1011 (
+#70
+b10100100 !
+b10100100 ,
+b10100100 &
+b10100100 +
+b0 #
+b0 (
+#75

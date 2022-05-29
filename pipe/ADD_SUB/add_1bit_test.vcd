@@ -1,0 +1,84 @@
+$date
+	Mon Jan 31 18:00:37 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_add_1bit $end
+$var wire 1 ! sum $end
+$var wire 1 " c_out $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % c_in $end
+$var integer 32 & i [31:0] $end
+$scope module Adder $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % c_in $end
+$var wire 1 " c_out $end
+$var wire 1 ! sum $end
+$var wire 1 ' w1 $end
+$var wire 1 ( w2 $end
+$var wire 1 ) w3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+0(
+0'
+b0 &
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+b1 &
+#10
+1!
+b10 &
+1%
+#15
+1'
+1!
+b11 &
+1$
+0%
+#20
+1"
+0!
+1)
+b100 &
+1%
+#25
+0"
+1!
+0)
+b101 &
+1#
+0$
+0%
+#30
+1"
+0!
+1)
+b110 &
+1%
+#35
+0'
+1(
+0!
+0)
+b111 &
+1$
+0%
+#40
+1!
+b1000 &
+1%
